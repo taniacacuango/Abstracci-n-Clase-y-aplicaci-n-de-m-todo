@@ -11,14 +11,14 @@ package modelo;
 
 public class Planeta {
     // Atributos
-    private String nombre;
-    private int cantidadSatelites;
-    private double masaKg;
-    private double volumenKm3;
-    private int diametroKm;
-    private int distanciaMediaAlSol;
-    private TipoPlaneta tipo;
-    private boolean observableASimpleVista;
+    public String nombre;
+    public int cantidadSatelites;
+    public double masaKg;
+   public double volumenKm3;
+  public int diametroKm;
+    public int distanciaMediaAlSol;
+     public TipoPlaneta tipo;
+    public boolean observableASimpleVista;
 
     // Enumerado para el tipo de planeta
     public enum TipoPlaneta {
